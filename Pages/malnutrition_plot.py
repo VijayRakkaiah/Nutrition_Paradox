@@ -10,7 +10,18 @@ df_obesity = pd.read_csv("df_obesity.csv")
 df_malnutrition = pd.read_csv("df_malnutrition.csv")
 
 # Title
-st.title("Obesity Data Visualization")
+st.markdown("""
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+    .custom-title {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        color: #50C878	;
+        text-align: center;
+    }
+    </style>
+    <div class="custom-title">Malnutrition Data Visualization</div>
+""", unsafe_allow_html=True)
 
 # Dropdown to select the question
 question = st.selectbox("Select a Question", malnutrition_questions)

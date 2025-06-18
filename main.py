@@ -2,21 +2,21 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Nutrition Paradox",
-    page_icon="📊",
+    page_icon="assets/logo.png",
     layout="centered",                  # Options: "centered" (default), "wide"
     initial_sidebar_state="expanded"    # Options: "expanded" or "collapsed"
 )
 
 about_page = st.Page(
     page="pages/about.py",
-    title='about this project',
+    title='About This Project',
     icon="ℹ",
     default=True
 )
 
 eda = st.Page(
     page="pages/eda_viz.py",
-    title='EDA',
+    title='Exploratory Data Analysis',
     icon="🔎",
 )
 
@@ -45,6 +45,7 @@ pg = st.navigation(
     }
 )
 
+st.logo("assets/inside_logo.png", size="large")
 st.sidebar.text("One World, Two Problems: Malnutrition and Obesity")
 
 pg.run()
