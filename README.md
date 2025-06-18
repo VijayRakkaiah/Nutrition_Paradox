@@ -54,24 +54,24 @@ This project highlights the dual burden of **obesity** and **malnutrition** affe
 
 ---
 ## 🖼️ PowerBI Dashboard
-![PowerBI Dashboard](assets/powerbi.png)
+![PowerBI Dashboard](assets/powerbi.PNG)
 
 ## 🖼️ App Screenshots
 
 ### 🧾 About Page
-![About Page](assets/about.png)
+![About Page](assets/about.PNG)
 
 ### 🔎 Exploratory Data Analysis Page
-![EDA Page](assets/Exploratory_Data_Analysis.png)
+![EDA Page](assets/Exploratory_Data_Analysis.PNG)
 
 ### 📈 Obesity Table Plots
-![Obesity Page](assets/Obesity_page.png)
+![Obesity Page](assets/Obesity_page.PNG)
 
 ### 📉 Malnutrition Table Plots
-![Malnutrition Page](assets/Malnutrition_page.png)
+![Malnutrition Page](assets/Malnutrition_page.PNG)
 
 ### 📊 Combined Visual Insights
-![Combined Page](assets/Combined_Table_page.png)
+![Combined Page](assets/Combined_Table_page.PNG)
 
 
 
